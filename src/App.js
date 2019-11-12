@@ -28,14 +28,8 @@ export default class App extends React.Component {
 
     return (
       <div className="App">
-        <CardList>
-          {
-            this.state.cinemas !== []? this.state.cinemas.map(
-            cinema => <h1 key={cinema.id}>{cinema.name}</h1>
-            ) 
-            
-            : null
-          }
+        <CardList cinemas={this.state.cinemas}>
+          
         </CardList>
       </div>
 
