@@ -6,8 +6,8 @@ export const CardList = props => {
     return(
         <div className='card-list'> 
             {
-                props.cinemas !== []? 
-                props.cinemas.map( cinema => <Card key={cinema.id} cinema={cinema} />
+                props.movies !== []?
+                props.movies.map( movie => <Card key={movie.id} movie={movie} />
                 ) 
                 : null
             } 
