@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './card.styles.css'
 
 export class Card extends React.Component{
@@ -21,7 +21,7 @@ export class Card extends React.Component{
                     className="card-image"
                 />
                 
-                <h1 className='card-title'>{this.props.movie.originalTitle}</h1>
+                <h1 className='card-title'>{this.props.movie.title}</h1>
                 
                 <div className='card-genres'>
                     {
