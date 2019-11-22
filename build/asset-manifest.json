@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/movies-comming-soon/static/css/main.8b8f93c6.chunk.css",
+    "main.js": "/movies-comming-soon/static/js/main.4147cbd2.chunk.js",
+    "main.js.map": "/movies-comming-soon/static/js/main.4147cbd2.chunk.js.map",
+    "runtime-main.js": "/movies-comming-soon/static/js/runtime-main.39d2cdbf.js",
+    "runtime-main.js.map": "/movies-comming-soon/static/js/runtime-main.39d2cdbf.js.map",
+    "static/css/2.764ccc25.chunk.css": "/movies-comming-soon/static/css/2.764ccc25.chunk.css",
+    "static/js/2.8fff452a.chunk.js": "/movies-comming-soon/static/js/2.8fff452a.chunk.js",
+    "static/js/2.8fff452a.chunk.js.map": "/movies-comming-soon/static/js/2.8fff452a.chunk.js.map",
+    "index.html": "/movies-comming-soon/index.html",
+    "precache-manifest.bfe7c4aa85f4b5e3ed99ddd0a7c3a6a2.js": "/movies-comming-soon/precache-manifest.bfe7c4aa85f4b5e3ed99ddd0a7c3a6a2.js",
+    "service-worker.js": "/movies-comming-soon/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/movies-comming-soon/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.8b8f93c6.chunk.css.map": "/movies-comming-soon/static/css/main.8b8f93c6.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39d2cdbf.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.8fff452a.chunk.js",
+    "static/css/main.8b8f93c6.chunk.css",
+    "static/js/main.4147cbd2.chunk.js"
+  ]
+}
