@@ -37,16 +37,16 @@ export default class App extends React.Component {
 		
 		return (
 			<div className="App">
-				<h1 style={{fontSize: 20}}>Em breve nos cinemas</h1>
+				
+				<h1 className='app-title'>Em breve nos cinemas</h1>
+				
 				<SearchField
 					placeholder='Search movies...'
 					handleChange={ event => this.setState( { searchField: event.target.value } ) }
 				/>
 				
+				<CardList movies={filteredMovies}></CardList>
 				
-				<CardList movies={filteredMovies}>
-				
-				</CardList>
 			</div>
 		
 		);
