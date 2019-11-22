@@ -20,7 +20,7 @@ export default class App extends React.Component {
 	}
 	// Quando este componente for montado, fazer...
 	componentDidMount(){
-		fetch('https://cors-anywhere.herokuapp.com/https://api-content.ingresso.com/v0/events/coming-soon/partnership/moviebot?limit=30')
+		fetch('https://cors-anywhere.herokuapp.com/https://api-content.ingresso.com/v0/events/coming-soon/partnership/moviebot?limit=50\n')
 			.then( resp => resp.json() )
 			.then( data => this.setState( { movies: data.items } ))
 	}
@@ -37,14 +37,14 @@ export default class App extends React.Component {
 		
 		return (
 			<div className="App">
-				
-				<h1 className='app-title'>Em breve nos cinemas</h1>
-				
-				<SearchField
-					placeholder='Search movies...'
-					handleChange={ event => this.setState( { searchField: event.target.value } ) }
-				/>
-				
+				<div className='App-header'>
+					<h1 className='App-title'>Em breve nos cinemas</h1>
+					
+					<SearchField
+						placeholder='Search movies...'
+						handleChange={ event => this.setState( { searchField: event.target.value } ) }
+					/>
+				</div>
 				<CardList movies={filteredMovies}></CardList>
 				
 			</div>

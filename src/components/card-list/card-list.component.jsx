@@ -1,6 +1,6 @@
 import React from 'react'
 import './card-list.styles.css'
-import { Card } from '../card/card.component'
+import { MovieCard } from '../card/movieCard.component'
 
 export const CardList = props => {
     
@@ -10,7 +10,7 @@ export const CardList = props => {
             {
                 props.movies !== []?
                     props.movies.map(
-                        (movie, index) => <Card key={index} movie={movie} />
+                        (movie, index) => <MovieCard key={index} movie={movie} />
                     )
                     : null
             }
